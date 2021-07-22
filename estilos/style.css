@@ -27,6 +27,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    
 }
 
 .menu li a {
@@ -50,12 +51,19 @@ header{
     border-radius: 10px;
     height: 45px;
     width: 45px;
+    max-width: 1200px;
 }
 
 h1 {
     color: #fff;
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
+    size: 1em;
+}
+
+p {
+    color: rgb(218, 201, 107);
+    margin: 20px;
 }
 
 .container {
