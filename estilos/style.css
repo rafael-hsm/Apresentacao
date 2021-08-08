@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -23,6 +27,19 @@ header{
 
 }
 
+.logo {
+    background-color: #ccc;
+    border-radius: 10px;
+    color: rgb(63, 66, 44);
+    font-size: 20px;
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 4px;
+    text-align: center;
+    width: 500px;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +51,7 @@ header{
     border-radius: 10px;
     color: white;
     display: block;
+    margin-top: 10px;
     margin-left: 10px;
     pad: 10px 20px;
     text-decoration: none;
@@ -46,24 +64,22 @@ header{
     text-decoration: none;
 }
 
-.logo {
-    background-color: #ccc;
-    border-radius: 10px;
-    height: 45px;
-    width: 45px;
-    max-width: 1200px;
-}
-
 h1 {
     color: #fff;
     margin: 20px;
-    text-align: left;
+    text-align: center;
     size: 1em;
 }
 
 p {
     color: rgb(218, 201, 107);
+    line-height: 1.5;
     margin: 20px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .container {
